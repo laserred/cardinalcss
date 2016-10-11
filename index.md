@@ -2,6 +2,7 @@
 layout: main
 title: Home
 permalink: /
+order: 1
 ---
 #### Basic grid
 

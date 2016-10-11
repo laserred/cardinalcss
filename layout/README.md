@@ -2,6 +2,7 @@
 layout: page
 title: Layout
 permalink: /layout/
+order: 3
 ---
 # Cardinal Layout
 

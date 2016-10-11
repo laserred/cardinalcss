@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: main
 title: Utilities
 permalink: /utilities/
+order: 5
 ---
 # Cardinal Utilities
 

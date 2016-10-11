@@ -1,19 +1,17 @@
 ---
-layout: page
+layout: main
 title: Components
 permalink: /components/
+order: 4
 ---
 # Cardinal Components
 
 Components are the discrete, custom UI elements that consist of specific semantics and styling, and make up the bulk of a UI.
 
-<div id="subnav">
-
 # Table of Contents
 
-- [Overview](#overview)
-- [Included Components](#included-components)
-</div>
+ - [Overview](#overview)
+ - [Included Components](#included-components)
 
 # Overview
 

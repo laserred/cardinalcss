@@ -2,6 +2,7 @@
 layout: page
 title: Base
 permalink: /base/
+order: 2
 ---
 
 # Cardinal Base
