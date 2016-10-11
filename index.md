@@ -6,7 +6,7 @@ permalink: /
 
 the index
 
-```HTML
+```html
 <p class="m++">test</p>
 ```
 
