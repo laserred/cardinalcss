@@ -1,3 +1,8 @@
+---
+layout: page
+title: Utilities
+permalink: /utilities/
+---
 # Cardinal Utilities
 
 The `utilities/` directory houses all the helper classes included in Cardinal.

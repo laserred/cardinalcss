@@ -1,3 +1,8 @@
+---
+layout: page
+title: Components
+permalink: /components/
+---
 # Cardinal Components
 
 Components are the discrete, custom UI elements that consist of specific semantics and styling, and make up the bulk of a UI.
@@ -44,4 +49,3 @@ The [List Component](https://github.com/cbracco/cardinal/blob/master/components/
 [View Demo](http://codepen.io/cbracco/pen/ZGWGvR)
 
 The [Table Component](https://github.com/cbracco/cardinal/blob/master/components/tables.less) includes several modifiers for manipulating default table styles.
-

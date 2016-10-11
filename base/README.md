@@ -1,3 +1,9 @@
+---
+layout: page
+title: Base
+permalink: /base/
+---
+
 # Cardinal Base
 
 The `base/` directory houses all of the essential styles that build the foundation for this framework.
