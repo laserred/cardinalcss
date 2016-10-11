@@ -8,11 +8,13 @@ permalink: /components/
 Components are the discrete, custom UI elements that consist of specific semantics and styling, and make up the bulk of a UI.
 
 <div id="subnav">
+
 # Table of Contents
 
 - [Overview](#overview)
 - [Included Components](#included-components)
 </div>
+
 # Overview
 
 Cardinal Components each represent a single part of a UI, and should never try to do too much. Components are designed to stand on their own, and be extremely portable and reusable.
