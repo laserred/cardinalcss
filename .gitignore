@@ -9,3 +9,5 @@ bower_components/
 node_modules/
 npm-debug.log
 *.map
+_site/
+.sass-cache/
