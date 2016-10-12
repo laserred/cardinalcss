@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Layout
-permalink: /cardinalcss/layout/
+permalink: /layout/
 order: 3
 ---
 # Cardinal Layout

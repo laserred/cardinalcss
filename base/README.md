@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Base
-permalink: /cardinalcss/base/
+permalink: /base/
 order: 2
 ---
 

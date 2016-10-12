@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Utilities
-permalink: /cardinalcss/utilities/
+permalink: /utilities/
 order: 5
 ---
 # Cardinal Utilities
