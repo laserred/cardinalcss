@@ -1,8 +1,99 @@
+@import "../base/variables.less";
+
 @main-bg: #ecddc7;
 @primary-color: #a41d1c;
 @secondary-color: #f4b13b;
 
+/********************************************************
+* Main styles
+********************************************************/
+
 #mainheader{
     height: 200px;
     background-color: @main-bg;
+    padding-top:10px;
+
+    small{
+      font-size:1rem;
+      font-weight:normal;
+    }
+    h1{
+      padding-top:0 !important;
+      margin-bottom:0;
+      padding-bottom:0;
+    }
+}
+
+#topbar{
+  border-bottom: 2px solid #beb293;
+  padding-bottom: 10px;
+}
+
+/**********************************************************
+* Nav
+**********************************************************/
+
+nav{
+  background: @main-bg;
+}
+
+#main-nav{
+  padding-bottom:10px;
+  background: @main-bg;
+
+  li{
+    display:inline;
+    list-style-type: none;
+    padding: 12px 15px 15px 20px;
+    margin:0;
+  }
+}
+
+.navlink.active{
+    background: #fff;
+    color: @primary-color;
+}
+
+.navlink.active a{
+  color: @primary-color;
+}
+
+/**********************************************************
+* Links and buttons
+**********************************************************/
+
+.toplinks{
+    padding-top:20px;
+}
+
+.navlink a, .topnavlink {
+  text-decoration: none;
+  color: #555;
+  padding-right:10px;
+  padding-bottom:10px;
+  font-size:.9rem;
+}
+
+.navlink a:hover .topnavlink:hover{
+  text-decoration: none;
+  color: @primary-color;
+}
+
+
+.btn-yellow {
+  color: @btn-primary-text-color;
+  background-color: @secondary-color;
+}
+
+.btn-yellow:hover {
+  background-color: lighten(@secondary-color, 4%);
+}
+
+.btn-red {
+  color: @btn-primary-text-color;
+  background-color: @primary-color;
+}
+
+.btn-red:hover {
+  background-color: lighten(@primary-color, 4%);
 }
