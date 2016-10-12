@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Base
-permalink: /base/
+permalink: base/
 order: 2
 ---
 
