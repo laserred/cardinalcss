@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Layout
-permalink: https://laserred.github.io/cardinalcss/layout/
+permalink: layout/
 order: 3
 ---
 # Cardinal Layout

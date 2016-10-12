@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Utilities
-permalink: https://laserred.github.io/cardinalcss/utilities/
+permalink: utilities/
 order: 5
 ---
 # Cardinal Utilities

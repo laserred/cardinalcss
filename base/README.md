@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Base
-permalink: https://laserred.github.io/cardinalcss/base/
+permalink: base/
 order: 2
 ---
 
