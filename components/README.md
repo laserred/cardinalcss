@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Components
-permalink: components/
+permalink: https://laserred.github.io/cardinalcss/components/
 order: 4
 ---
 # Cardinal Components
