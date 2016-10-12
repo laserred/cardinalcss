@@ -34,14 +34,23 @@
                     <a class="topnavlink" href="{{site.github.url}}/">Home</a> <a class="topnavlink" href="{{site.github.url}}/docs">Documentation</a> <a class="btn btn-sm btn-yellow" href="https://github.com/cardinalcss/cardinalcss">View on Github</a> <a class="btn btn-sm btn-red" href="https://github.com/cardinalcss/cardinalcss/archive/master.zip">Download latest version</a>
                 </div>
             </div>
+            <div class="grid">
+                <div class="grid-item 1/2">
 
+                </div>
+                <div class="grid-item 1/2 tr">
+                    <a href="/" class="logo" role="banner">
+                        <img class="db md-dib" src="{{site.github.url}}/assets/logo.png" alt="cardinal CSS" />
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <nav>
+    <div class="nav">
         <div class="wrapper">
             {% include topnav.html %}
         </div>
-    </nav>
+    </div>
     <div class="wrapper">
         {{ content }}
     </div>
