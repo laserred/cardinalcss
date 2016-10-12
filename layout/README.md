@@ -4,6 +4,7 @@ title: Layout
 permalink: /layout/
 order: 3
 ---
+
 # Cardinal Layout
 
 The `layout/` directory is where all the style tools for creating UI layouts exist. These tools work in tandem with some of Cardinal’s utilities (e.g. widths) to make it easy for front-end developers to whip up fast, flexible UI layouts.
