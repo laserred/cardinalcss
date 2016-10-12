@@ -8,6 +8,7 @@
         <li class="active"><a href="{{site.github.url}}{{node.url}}">{{node.title}}</a></li>
       {% else %}
         <li><a href="{{site.github.url}}{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </ul>
