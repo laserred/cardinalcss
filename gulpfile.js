@@ -139,8 +139,13 @@ gulp.task('gh-pages', function(){
   .pipe(gulp.dest(paths.ghpages.dir));
 });
 
+
 // Default (gulp)
 gulp.task('default', ['styles', 'browser-sync'], function() {
   gulp.watch(paths.less.all, ['styles']);
   gulp.watch('*.html', ['bs-reload']);
+});
+
+gulp.task('gh-pages-watch', function(){
+  gulp.watch(paths.ghpages.all, ['gh-pages']);
 });
