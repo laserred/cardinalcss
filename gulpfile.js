@@ -29,6 +29,11 @@ var paths = {
     dir: './',
     main: './cardinal.less',
     all: './**/*.less'
+  },
+  ghpages: {
+    dir: './assets',
+    main: './assets/gh-pages.less',
+    all: './assets/**/*.less'
   }
 };
 
@@ -112,6 +117,26 @@ gulp.task('browser-sync', function() {
 // Reload all Browsers
 gulp.task('bs-reload', function () {
     browserSyncReload();
+});
+
+//build the gh-pages site css
+gulp.task('gh-pages', function(){
+  return gulp.src([
+    paths.ghpages.main
+  ])
+  .pipe(plugins.less())
+  .pipe(plugins.autoprefixer({
+    browsers: browserSupport
+  }))
+  .pipe(plugins.csscomb())
+  .pipe(plugins.minifyCss({
+    shorthandCompacting: false,
+    processImport: false
+  }))
+  .pipe(plugins.rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest(paths.ghpages.dir));
 });
 
 // Default (gulp)
